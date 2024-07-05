@@ -7,6 +7,7 @@ int computerRandomNumber;
 int playerWinCount = 0;
 int computerWinCount = 0;
 bool isPlaying = true;
+bool isValid = true;
 do
 {
     for (int i = 0; i < 10; i++)
@@ -19,30 +20,38 @@ do
     GetOverallWinner();
     Console.WriteLine();
     PlayAgain();
-
-
-} while (isPlaying);
+} 
+while (isPlaying);
 
 Console.ReadKey();
 
-
 void PlayAgain()
 {
-    Console.ReadKey();
-    Console.WriteLine("PLAY AGAIN? [Y/N]");
-    var input = Console.ReadLine();
+    do
+    {
+        Console.WriteLine("PLAY AGAIN? [Y/N]");
+        var input = Console.ReadLine();
 
-    if ( input == "Y" || input == "y")
-    {
-        playerWinCount = 0;
-        computerWinCount = 0;
-        isPlaying = true;
+        if (input == "Y" || input == "y")
+        {
+            playerWinCount = 0;
+            computerWinCount = 0;
+            isPlaying = true;
+        }
+        else if (input == "N" || input == "n")
+        {
+            isPlaying = false;
+            Console.WriteLine(" THANKS FOR PLAYING <3 ");
+        }
+        else
+        {
+            isPlaying = false;
+            isValid = false;
+            Console.WriteLine("INVALID INPUT. PLEASE TRY AGAIN");
+        }
     }
-    else if ( input == "N" || input == "n")
-    {
-        isPlaying = false;
-        Console.WriteLine(" THANKS FOR PLAYING <3 ");
-    } 
+    while (isValid);
+
 }
 
 void RollTheDice()
