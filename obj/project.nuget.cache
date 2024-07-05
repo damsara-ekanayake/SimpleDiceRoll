@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6S88pMQoV9uf+po1xEtxoO0Vp5CBI0A0sB/xCCdA5LguZzaW9aibNw+rMvddMsRuBuo4EIDOHIPLSkRs6tNmPg==",
+  "success": true,
+  "projectFilePath": "F:\\c# projects\\SimpleDiceRoll\\SimpleDiceRoll\\SimpleDiceRoll.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.31\\microsoft.windowsdesktop.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.31\\microsoft.netcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.31\\microsoft.aspnetcore.app.ref.6.0.31.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.31\\microsoft.netcore.app.host.win-x64.6.0.31.nupkg.sha512"
+  ],
+  "logs": []
+}
