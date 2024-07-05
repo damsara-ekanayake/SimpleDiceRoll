@@ -1,4 +1,4 @@
-﻿Console.WriteLine(" \t\t --- WELCOME TO THE DICE GAME ---");
+﻿Console.WriteLine(" \t\t --- WELCOME TO THE DICE GAME ---\n");
 
 Random random = new Random();
 
@@ -7,14 +7,15 @@ int computerRandomNumber;
 int playerWinCount = 0;
 int computerWinCount = 0;
 bool isPlaying = true;
-bool isValid = true;
+
 do
 {
     for (int i = 0; i < 10; i++)
     {
-        Console.WriteLine($"\n\t - ROUND {i + 1} -");
+        Console.WriteLine($"\t - ROUND {i + 1} -");
         RollTheDice();
         GetRoundWinner();
+        Console.WriteLine("\n****************************************");
         Console.WriteLine();
     }
     GetOverallWinner();
@@ -27,31 +28,24 @@ Console.ReadKey();
 
 void PlayAgain()
 {
-    do
-    {
-        Console.WriteLine("PLAY AGAIN? [Y/N]");
+        Console.Write("PLAY AGAIN? [Y/N]........");
         var input = Console.ReadLine();
 
         if (input == "Y" || input == "y")
         {
             playerWinCount = 0;
             computerWinCount = 0;
-            isPlaying = true;
         }
         else if (input == "N" || input == "n")
         {
             isPlaying = false;
-            Console.WriteLine(" THANKS FOR PLAYING <3 ");
+            Console.WriteLine("\n  --- THANKS FOR PLAYING <3 --- \n             ***\n     BY MALFUNCTION SOFTWARE");
         }
         else
         {
-            isPlaying = false;
-            isValid = false;
-            Console.WriteLine("INVALID INPUT. PLEASE TRY AGAIN");
+            Console.WriteLine("INVALID INPUT. PLEASE TRY AGAIN\n");
+            PlayAgain();
         }
-    }
-    while (isValid);
-
 }
 
 void RollTheDice()
@@ -93,11 +87,11 @@ void GetOverallWinner()
 {
     if (playerWinCount > computerWinCount)
     {
-        Console.WriteLine("\" CONGRATULATIONS! YOU WIN \"");
+        Console.WriteLine("    \" CONGRATULATIONS! YOU WIN \"\n\n****************************************");
     }
     else if (playerWinCount < computerWinCount)
     {
-        Console.WriteLine("\" YOU LOSE! \"");
+        Console.WriteLine("            \" YOU LOSE! \"\n\n****************************************");
     }
     else 
     {
@@ -106,11 +100,11 @@ void GetOverallWinner()
 
         if (playerRandomNumber > computerRandomNumber)
         {
-            Console.WriteLine("\" CONGRATULATIONS! YOU WIN \"");
+            Console.WriteLine("    \" CONGRATULATIONS! YOU WIN \"\n\n****************************************");
         }
         else if (playerRandomNumber < computerRandomNumber)
         {
-            Console.WriteLine("\" YOU LOSE! \"");
+            Console.WriteLine("            \" YOU LOSE! \"\n\n****************************************");
         }
      
     }
