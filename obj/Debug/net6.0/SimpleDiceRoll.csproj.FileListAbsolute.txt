@@ -1,0 +1,14 @@
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\bin\Debug\net6.0\SimpleDiceRoll.exe
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\bin\Debug\net6.0\SimpleDiceRoll.deps.json
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\bin\Debug\net6.0\SimpleDiceRoll.runtimeconfig.json
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\bin\Debug\net6.0\SimpleDiceRoll.dll
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\bin\Debug\net6.0\SimpleDiceRoll.pdb
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\obj\Debug\net6.0\SimpleDiceRoll.GeneratedMSBuildEditorConfig.editorconfig
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\obj\Debug\net6.0\SimpleDiceRoll.AssemblyInfoInputs.cache
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\obj\Debug\net6.0\SimpleDiceRoll.AssemblyInfo.cs
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\obj\Debug\net6.0\SimpleDiceRoll.csproj.CoreCompileInputs.cache
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\obj\Debug\net6.0\SimpleDiceRoll.dll
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\obj\Debug\net6.0\refint\SimpleDiceRoll.dll
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\obj\Debug\net6.0\SimpleDiceRoll.pdb
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\obj\Debug\net6.0\SimpleDiceRoll.genruntimeconfig.cache
+F:\c# projects\SimpleDiceRoll\SimpleDiceRoll\obj\Debug\net6.0\ref\SimpleDiceRoll.dll
